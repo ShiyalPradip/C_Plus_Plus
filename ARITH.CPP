@@ -37,13 +37,12 @@ void main()
 			switch(Oper)
 				{
 					case '#': exit(0);
-					case '+': cout<<"\n\n Addition :- "<<Num1+Num2;   		 getch(); break;
-					case '-': cout<<"\n\n Subtraction:- "<<Num1-Num2; 		 getch(); break;
-					case '*': cout<<"\n\n Multiplication:- "<<Num1*Num2; 	 getch(); break;
-					case '/': cout<<"\n\n Division:- "<<Num1/Num2; 			 getch(); break;
-					case '%': cout<<"\n\nModulus:- "<<Num1%Num2;				 getch(); break; -
+					case '+': cout<<"\n\n Addition :- "<<Num1+Num2;   		 getch();break;
+					case '-': cout<<"\n\n Subtraction:- "<<Num1-Num2; 		 getch();break;
+					case '*': cout<<"\n\n Multiplication:- "<<Num1*Num2; 	 getch();break;
+					case '/': cout<<"\n\n Division:- "<<Num1/Num2; 			 getch();break;
 
-					default: cout<<"Please Chose + , -, *, /, %";
+					default: cout<<"Please Chose + , -, *, /";
 								getch();
 				}
 		}
